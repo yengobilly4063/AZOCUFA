@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>HANDICRAFT</title>
+	<link rel="stylesheet" href="css/mainstyle.css" />
+	<link rel="stylesheet" href="css/grid.css" />
+	<link rel="stylesheet" href="css/slide_complete.css" />
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="logo"> 
+			<a href=""><img src="img/logo.png" alt="" /></a>
+		</div>
+		<div class="line1">
+			<div class="topnav"> 
+				<ul> 
+					<li class="rbm selected"><a href="home.html">Home</a></li>
+					<li class="rbm"><a href="about.html">About</a></li>
+					<li class="rbm"><a href="#">History</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div><!--End of Line 1-->
+		<div class="line2">
+			<div class="bfsrchdnt"></div>
+				<table class="srchdnt"> 
+					<tr class="searcharea"> 
+						<td><input class="textarea" type="text" /></td>
+						<td><input class="searchbt" type="button" name="search" value="Search" /></td>
+					</tr>
+					<tr class="donatearea">
+						<td><input class="donatebt" type="button" name="donate" value="Donate" /></td> 
+					</tr>
+				</table>
+		</div><!--End of Line 2-->
+		
+		
+		
+		
+		<div id="dropMenuwraper"> 
+			<div id="dropMenu"> 
+				<ul id="firstMenu"> 
+					<li><a href="carvings.html">Carvings</a> 
+						<ul class="submenu">
+							<li><a href="carvings.html">Statues</a></li>
+							<li><a href="masks.html">Mask</a></li>
+							<li><a href="drums.html">Drums</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Medicinal Plants</a> 
+						<ul class="submenu">
+							<li><a href="#">Modelling</a></li>
+							<li><a href="#">Dancing</a></li>
+							<li><a href="#">Acting</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Wild Life</a>
+						<ul class="submenu">
+							<li><a href="#">Modelling</a></li>
+							<li><a href="#">Dancing</a></li>
+							<li><a href="#">Acting</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Traditional wear</a> 
+						<ul class="submenu">
+							<li><a href="#">Modelling</a></li>
+							<li><a href="#">Dancing</a></li>
+							<li><a href="#">Acting</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		
+	</header><!--End of Header-->
+	
+	
+	
+	<div class="bodywrap">
+		<div class="aside"> 
+			<div class="main_nav"> 
+				<ul class="main_nav_ul"> 
+					<li><a href="home.html">Home</a></li>
+					<li><a href="carvings.html">Carvings <span class="sub_arrows"></span></a> 
+						<ul>
+							<li><a href="carvings.html">Statues</a></li>
+							<li><a href="masks.html">Masks</a></li>
+							<li><a href="drums.html">Drums</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Medicinal Plants</a></li>
+					<li><a href="#">Medicinal Wildlife</a></li>
+					<li><a href="#">Cultural Wear</a></li>
+				</ul>
+			</div>
+		</div>
+
+	
+		<div class="main container_12"> 
+			<div class="cycle-slideshow" #data-cycle-pager-template="<a class='thumbs' href='#'><img src='{{src}}'/></a>">
+			
+				<div class="cycle-pager"></div>
+				<div class="cycle-prev">&#9001;</div>
+				<div class="cycle-next">&#9002;</div>
+			
+				<img class="imgslide" src="images/slide1.jpg" alt="Minions1"/>
+				<img class="imgslide" src="images/slide2.jpg" alt="Minions2"/>
+				<img class="imgslide" src="images/slide3.jpg" alt="Minions3"/>
+				<img class="imgslide" src="images/slide4.jpg" alt="Minions4"/>
+				<img class="imgslide" src="images/slide5.jpg" alt="Minions5"/>
+				<img class="imgslide" src="images/slide6.jpg" alt="Minions6"/>
+				<img class="imgslide" src="images/slide7.jpg" alt="Minions7"/>
+				<img class="imgslide" src="images/slide8.jpg" alt="Minions8"/>
+			</div>
+			<!--Responsive Image with Thumbnails-->	
+		</div>
+	</div>
+	
+	<footer class="myfoot"> 
+		<table class="ftable1"> 
+			
+		</table>
+		<table class="ftable2"> 
+			
+		</table>
+		<div class="contact_form"> 
+			<form method="POST" action="#"> 
+				<table> 
+					<tr> 
+						<th align="right">Full Name:</th>
+						<td><input type="text" name="cus_name" placeholder="Please input your Name" /></td>
+					</tr>
+					<tr> 
+						<th align="right">Email:</th>
+						<td><input type="text" name="cus_email" placeholder="Please input your Email"/></td>
+					</tr>
+					<tr> 
+						<th align="right">Contact</th>
+						<td><input type="text" name="cus_contact" placeholder="Please input your Contact"/></td>
+					</tr>
+					<tr> 
+						<th align="right">Address:</th>
+						<td><input type="text" name="cus_add" placeholder="Please input your full address"/></td>
+					</tr>
+					<tr> 
+						<th align="right">Comment/Inquiry:</th>
+						<td><textarea name="inquiry" id="inquiry" cols="20" rows="5" placeholder="Please place a Comment/Inquiry"></textarea></td>
+					</tr>
+					<tr> 
+						<td align="right" colspan="4" class="sub"><input type="submit" name="submit" value="Submit" /></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="copyright"> 
+			<p>&copy; Copyright 2016</p>
+		</div>
+		
+	</footer>
+	
+	
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+/*************************/
+/********LINKS**********/
+/*************************/
+a{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+a:hover{
+	color:blue;
+	font-weight:bold;
+	background:gray;
+}
+
+/*************************/
+/********Article**********/
+/*************************/
+article h2, h3{
+	border-bottom:2px solid skyblue;
+	text-align:center;
+	color:gray;
+}
+article p{
+	text-align:center;
+	margin:2px auto;
+	color:gray;
+}
+article h2:hover,h3:hover,p:hover{
+	color:black;
+	cursor:pointer;
+}

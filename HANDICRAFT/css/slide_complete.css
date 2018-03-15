@@ -1,0 +1,78 @@
+*{margin:0px;padding:0px}
+
+/**************Slide_Show_Area**************/
+.cycle-slideshow{
+	max-width:960px;
+	min-width:600px;
+	margin:5px auto;
+	border:1px solid gray;
+	position:relative;
+	display:block;
+}
+/**************slide_images**************/
+.cycle-slideshow .imgslide{
+	width:960px; height:500px;
+}
+/**************Thumbnails**************/
+
+/**************Previous_&_Next**************/
+.cycle-prev, .cycle-next{
+	position:absolute;
+	width:30px;
+	height:50px;
+	display:block;
+	z-index:999;
+	cursor:pointer;
+	background:skyblue;
+	line-height:50px;
+	text-align:center;
+	top:225px;
+	color:white;
+	opacity:.3;
+	font-size:200%;
+}
+.cycle-prev{
+	left:0px;
+}
+
+.cycle-next{
+	right:0px;
+}
+/**************Thumbnails**************/
+img{
+	max-width:100%; display:block;
+}
+.cycle-pager{
+	position:absolute;
+	display:block;
+	width:100%;
+	text-align:center;
+	top:5px;
+	z-index:9999;
+	cursor:pointer;
+}
+.cycle-pager a{
+	display:inline-block;
+	opacity:.3;
+	margin:0px 2.5px;
+}
+.cycle-pager a:hover{
+	opacity:.9;
+	#border-bottom:2px solid green;
+	#border-top:1px solid green;
+	#margin-bottom:5px;
+}
+.cycle-pager .thumbs{
+	width:10%;
+}
+.thumbs{
+	display:block;
+}
+/**************Thumbnails_Active**************/
+.cycle-pager .cycle-pager-active{
+	opacity:1;
+	color:red;
+	#border-bottom:2px solid red;
+	#border-top:1px solid red;
+	#margin-bottom:5px;
+}

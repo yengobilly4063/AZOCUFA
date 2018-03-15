@@ -1,0 +1,22 @@
+.services{
+	margin-top:50px;
+}
+.services .grid_6{
+	margin-top:20px;
+}
+.container_12 .abt_us{
+	margin-left:auto;
+	margin-right:auto;
+}
+.h2{
+	text-align:center; border-bottom:2px solid brown; text-transform:uppercase; font-family:helvetica;
+	word-spacing:10px;
+	margin-bottom:15px;
+	color:skyblue;
+}
+.aboutus_wrap p{
+	text-align:center;
+}
+.services p{
+	text-align:center;
+}
